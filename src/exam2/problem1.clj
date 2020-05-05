@@ -1,3 +1,10 @@
+; Problem  #1
+; @author A01374009 Hector David Hernandez Rodriguez
+; @author A01372942 Juan Manuel Gomez Portugal
+;----------------------------------------------------------
+
+
+
 (defn grid
   [s t n]
   (doseq [i (range t)]
@@ -19,6 +26,3 @@
         (print "*"))
       (println)))
   )
-
-
-
